@@ -1,4 +1,3 @@
-Servidor faucet para adquirir ethers en la testnet Rinkeby
 # Faucet for rinkeby ethereum test network 
 Using NodeJS with Express library
 #### 1. Install Pre-requisites
