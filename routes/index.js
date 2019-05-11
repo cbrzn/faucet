@@ -1,9 +1,8 @@
-import express from "express";
+import express from 'express';
+import faucet from '../controllers';
 
-const router = express.Router()
+const router = express.Router();
 
-router.get('/get_ether/:wallet', (req, res) => {
-    res.send({wallet: req.params.wallet})
-})
+router.use('/', faucet);
 
-export default router
+export default router;
